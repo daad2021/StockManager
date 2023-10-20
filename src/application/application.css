@@ -1,0 +1,367 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.linear-grad-to-bottom-right{
+    -fx-background-color: linear-gradient(to bottom right, #ff7f50, #6a5acd);
+}
+
+#loginBtn:hover {
+  -fx-background-color: #5C8374;
+}
+
+.button:hover {
+/* */	-fx-background-color:#5C8374;
+	-fx-text-fill: #000000;
+/*	-fx-font-weight: BOLD; */
+}
+
+.check-box .mark {
+  -fx-shape: "M2,0L5,4L8,0L10,0L10,2L6,5L10,8L10,10L8,10L5,6L2,10L0,10L0,8L4,5L0,2L0,0Z";
+}
+
+.check-box:selected .mark {
+  -fx-background-color: #0181e2ff;
+}
+
+/* Dashboard css */
+
+.navBar5 {
+	-fx-background-color: #435334;
+	-fx-text-alignment:left;
+}
+
+.navBar{
+	-fx-border-color: GRAY;
+
+}
+
+#logoBox{
+    -fx-background-color: WHITE;
+}
+
+/*
+#logOutBtnBox{
+    -fx-background-color: linear-gradient(to bottom right, #C8AE7D, #765827);
+}
+*/
+
+.navBtn {
+	/*-fx-background-color: #D6CC99;*/
+	-fx-pref-width:140;
+	-fx-pref-height:40;
+	-fx-font-weight:BOLD;
+	-fx-font-size:15;
+}
+
+.navBtn:hover {
+	-fx-background-color: #85E6C5;
+}
+
+#screenSaverPane{
+	-fx-background-color: #ffffff;
+}
+
+/*
+#screenSaverPane{
+	-fx-background-color: linear-gradient(to bottom right, #EEEDED, #435334);
+}
+*/
+
+/* */
+.summary {
+	-fx-background-color:linear-gradient(to top left, #CEDEBD, #435334);
+	-fx-background-radius:10;
+}
+#vb1{
+	-fx-background-color: beige;
+}
+#vb2{
+	-fx-background-color: #D2DE32;
+}
+#vb3{
+	-fx-background-color: #FFB000;
+}
+
+#vb4{
+	-fx-background-color: #FFCC70;
+}
+
+
+/* Report tab */
+#reportPage{
+	-fx-background-color: transparent;
+}
+
+#pane1{
+	-fx-background-color: #FFFFFF;
+	
+}
+
+#tab1_rootPane{
+	-fx-border-color: GRAY;
+	
+}
+
+#topPanel{
+	-fx-border-color: GRAY;
+	
+}
+
+#bottomPane{
+	-fx-border-color: BEIGE;
+	-fx-background-color: BEIGE;
+}
+
+#radioRootPane{
+	-fx-border-color: #EEEDED;
+	
+}
+
+#formRootPane{
+	-fx-border-color: #FFCC70;
+	-fx-background-color: #ffffff;
+}
+
+#chartPanel{
+	-fx-border-color: #FFCC70;
+	-fx-background-color: WHITE;
+}
+
+#refreshBtn{
+/*  -fx-background-color:#7A9D54;
+	-fx-text-fill: #ffffff;*/
+	-fx-font-weight: BOLD;
+	-fx-pref-width:100;
+}
+
+#refreshBtn:hover{
+	-fx-background-color:GRAY;
+	-fx-text-fill: #ffffff;
+}
+
+#btnPane{
+	-fx-background-color: transparent;
+}
+
+#itemPage {
+	-fx-background-color: #ffffff;	
+}
+
+#fg-addItemBtn {
+	-fx-background-color:#435334;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:120;
+}
+
+#fg-addItemBtn:hover {
+	-fx-background-color:#85E6C5;
+	-fx-text-fill: #000000;
+}
+
+#fg-updateItemBtn{
+	-fx-background-color:#0079FF;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:120;
+}
+
+#fg-updateItemBtn:hover {
+	-fx-background-color:#85E6C5;
+	-fx-text-fill: #000000;
+}
+
+#fg-removeItemBtn:hover {
+	-fx-background-color:#85E6C5;
+	-fx-text-fill: #000000;
+}
+
+#fg-addToCartBtn {
+ 	-fx-background-color:#54B435;
+	-fx-text-fill: #ffffff; 
+	-fx-font-weight: BOLD; 
+	-fx-pref-width:135;
+	-fx-pref-height:60;
+}
+
+#fg-clearBtn{
+	-fx-background-color:#FF52A2;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:120;
+}
+
+#fg-clearBtn:hover {
+	-fx-background-color:#85E6C5;
+	-fx-text-fill: #000000;
+}
+
+#addBtn {
+	-fx-background-color:#54B435;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:50;
+}
+
+#addBtn:hover {
+	-fx-background-color:#B3FFAE;
+}
+
+
+#removeBtn {
+	-fx-background-color:#FE0000;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:50;
+}
+
+#removeBtn:hover {
+	-fx-background-color:#FF7D7D;
+}
+
+#fg-removeItemBtn {
+	-fx-background-color:#FE0000;
+	-fx-text-fill: #ffffff;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:120;
+}
+
+#fg-addToCartBtn:hover {
+	-fx-background-color:#85E6C5;
+	-fx-text-fill: #000000;
+}
+
+.fg-buttonPane{
+	-fx-border-color: #DAD4B5;
+	-fx-background-color: transparent;
+}
+
+#tableBox{
+	-fx-background-color: transparent;
+}
+
+#itemPagePane{
+	-fx-border-color: #435334;
+	-fx-background-color: transparent;
+}
+
+.addItemTextFieldsPane{	
+	-fx-background-color: white;
+}
+
+
+/* sales page */
+#salesPane {
+	-fx-border-color: GRAY;
+/* 	-fx-background-color: BEIGE; */
+}
+
+#topPane {
+	-fx-border-color: #5C8374;
+
+}
+
+#logOutBtnBox {
+	-fx-border-color: #5C8374;
+	-fx-background-color: BEIGE;
+}
+
+#cartLabelPane{
+	-fx-border-color: #EEEDED;
+	-fx-background-color: WHITE;
+}
+
+#cartPanel{
+	-fx-border-color: #EEEDED;
+	-fx-background-color: BEIGE;
+}
+
+cartLabel {
+	-fx-text-fill: #000000;
+	-fx-font-weight: BOLD;
+	-fx-pref-width:150;
+}
+
+/* */
+
+#delBtn{
+	-fx-background-color:#FE0000;
+	-fx-text-fill: #ffffff;
+}
+
+#editBtn{
+	-fx-background-color:#0079FF;
+	-fx-text-fill: #ffffff;
+}
+/* 
+#statusBtn{
+	-fx-background-color:#1A5D1A;
+	-fx-text-fill: #ffffff;
+}
+*/
+.formGridPane {
+	-fx-background-color:#ffffff;
+	-fx-border-color: #5C8374;
+}
+
+#gp{
+	-fx-border-color: #EEEDED;
+	-fx-background-color: BEIGE;
+}
+
+#formGridPane2{
+	-fx-border-color: #5C8374;
+	-fx-background-color: linear-gradient(to top right, #CEDEBD, #435334);
+}
+
+#createItemPane{
+	-fx-border-color: #5C8374;
+}
+/* 
+#topPane {
+	-fx-border-color: #5C8374;
+	-fx-background-color: beige;
+} */
+
+#imageBox{
+	-fx-border-color: GREY;
+	-fx-background-color: transparent;
+}
+
+#summaryPane {
+	-fx-border-color: GRAY;
+	-fx-background-color: #ffffff;
+}
+
+.salesSummary{
+	-fx-text-fill: #0E21A0;
+	-fx-font-weight: BOLD;
+	-fx-font-size:25;
+	-fx-background-color: transparent;
+}
+
+/*
+ * .salesSummary{
+	-fx-text-fill: #0E21A0;
+	-fx-font-weight: BOLD;
+	-fx-font-size:25;
+	-fx-background-color: transparent;
+}
+ */
+ 
+
+.boldLbl {
+	-fx-text-fill: #0E21A0;
+	-fx-font-weight: BOLD;
+}
+/* 
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header .label,
+.table-view .column-header-background .filler {
+    -fx-background-color: #CEDEBD;
+    -fx-text-fill: #000000;
+}
+*/
+.table-view {
+	-fx-border-color: GRAY;
+}
