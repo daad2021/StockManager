@@ -1,6 +1,7 @@
 # StockManager
 Stock management system using java (JAVAFX)
 This is a JavaFX project. Still in progress.....
+But it can still be used for learning and practice.
 
 GUI:
 
